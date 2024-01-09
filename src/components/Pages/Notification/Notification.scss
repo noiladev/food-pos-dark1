@@ -1,0 +1,31 @@
+  @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;500&family=Fredoka:wght@400;500&family=Hind+Madurai&family=Inconsolata:wght@400;500&family=Livvic:wght@200;300;500;600&family=Merriweather:ital,wght@0,300;1,400&family=Montserrat:ital,wght@0,700;1,700&family=Roboto:ital,wght@0,300;1,400&family=Slabo+27px&display=swap');
+@import '../../assets/scss/variebles.scss' ;
+
+.notifc{
+    border: 5px solid $lightOrange;
+    width: 850px;
+    height: 300px;
+    margin:  150px 200px;
+    background-color: $darkPurple;
+    flex-grow: 1;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center; 
+    border-radius: 35px;   
+}
+
+h4 {
+    font-size: 42px;
+    font-family: 'Inconsolata', monospace;
+}
+
+.notifc__btn {
+    padding: 12px 32px;
+    font-size: 23px;
+    margin-left: 65px;
+    border-radius: 10px;
+    color: $lightOrange;
+    background-color: $darkGrey;
+    border: 3px groove $lightOrange;
+}

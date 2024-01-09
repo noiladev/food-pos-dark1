@@ -1,0 +1,14 @@
+@import '../assets/scss/variebles.scss';
+
+.home {
+    background-color: $darkGrey;
+    flex-grow: 1;
+    padding-left: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.home__main {
+    width: 60%;
+    
+}

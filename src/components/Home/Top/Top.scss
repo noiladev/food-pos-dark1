@@ -1,0 +1,64 @@
+@import '../../assets/scss/variebles.scss';
+
+.top {
+    flex-grow: 1;
+    margin-left: 40px;
+}
+.top__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 24px;
+    color: white;
+    div {
+        margin-left: 16px;
+    }
+    div:nth-child(2) {
+        display: flex;
+        padding: 14px;
+        border-radius: 8px;
+        border: 1px solid #393C49;
+        background: #2D303E;
+        input {
+            background-color: transparent;
+            outline: none;
+            border: none;
+            margin-left: 12px;
+            color: white;
+        }
+    }
+}
+.top__list {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #393C49;
+    .active {
+        button{
+            color: $lightOrange;
+        }
+        border-bottom: 4px solid  $lightOrange;
+    }
+}
+.top__item {
+    padding: 13px 0;
+     button {
+        background-color: transparent;
+        border: none;
+        color: white;
+        cursor: pointer;
+     }
+     border-bottom: 4px solid transparent;
+}
+
+.card__list {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    li {
+        margin-top: 60px;
+        cursor: pointer;
+    }
+}

@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from  '../components/assets/img/logo.svg'
+import logo from  '../assets/img/logo.svg'
 import { Link, useLocation } from 'react-router-dom'
 import './Header.scss'
 // @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css");
@@ -14,13 +14,13 @@ function Header() {
         </a>
         <ul className='nav__list'>
           <li className={location == '/' ? 'nav__link active' : 'nav__link'}>
-            <Link to="/" className={location == '/' ? 'nav__link active' : 'nav__link'}><i class="bi bi-house-door"></i></Link>
+            <Link to="/" className= 'nav__link  '  ><i class="bi bi-house-door"></i></Link>
           </li>
           <li className={location == '/percent' ? 'nav__link active' : 'nav__link'}>
             <Link to="/percent"  className='nav__link' ><i class="bi bi-percent"></i></Link>
           </li>
-          <li className={location == '/chart' ? 'nav__link active' : 'nav__link'}>
-            <Link to="/chart"  className='nav__link'><i class="bi bi-pie-chart"></i></Link>
+          <li className={location == '/dashboard' ? 'nav__link active' : 'nav__link'}>
+            <Link to="/dashboard"  className='nav__link'><i class="bi bi-pie-chart"></i></Link>
           </li>
           <li className={location == '/envekope' ? 'nav__link active' : 'nav__link'}>
             <Link to="/envekope"   className='nav__link'><i class="bi bi-envelope"></i></Link>

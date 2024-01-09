@@ -1,0 +1,27 @@
+@import '../../assets/scss/variebles.scss';
+
+.card {
+    width: 192px;
+    height: 226px;
+    border-radius: 12px;
+    background-color: $darkPurple;
+    border-radius: 18px;
+    padding: 24px;
+    img {
+        width: 132px;
+        height: 132px;
+        border-radius: 50%;
+        object-fit: cover;
+        transform: translateY(-60px);
+        margin: 0 auto;
+        display: block;
+        color:white;
+        background-color: white;
+    }
+    div {
+        transform: translateY(-60px);
+        h3,p, span  {
+            font-size: 14px;
+        }
+    }
+}

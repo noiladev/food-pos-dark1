@@ -1,0 +1,16 @@
+@import '../../assets/scss/variebles.scss' ;
+
+.setting {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin: auto 0;
+    background-color: $darkGrey;
+    padding: 15px 0;
+    font-family: 'Inconsolata', monospace;
+    span {
+        background-color: #ea7c69d5;
+        padding: 4px 8px;
+        // margin-top: 30px;
+    }
+}

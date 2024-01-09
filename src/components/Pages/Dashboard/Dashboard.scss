@@ -1,0 +1,12 @@
+@import '../../assets/scss/variebles.scss'; 
+
+.dashboard {
+    width:  100%;
+    height: 100%;
+     display:  block;
+     justify-content:  left;
+    background-color: $darkGrey;
+    // border: 10px solid yellow;
+    position: absolute;
+    left: 70px;
+}
